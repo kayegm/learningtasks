@@ -1,0 +1,142 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    /*background-position: top center;*/
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+#wrapper{
+    width: 1199px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+   /* border: 2px solid black;*/
+    color: white;
+    
+}
+
+
+#menu{
+    width: 100%;
+    height: 90px;
+    /*border:2px solid black;*/
+    padding: none; 
+    background-color: none;
+    
+}
+#wrapper h1{
+  font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 130px;
+}
+#wrapper h4{
+    text-align:center;
+    font-family: 'Dosis', sans-serif;
+    font-size:60px;
+}
+a{
+    font-family: 'EB Garamond', serif;
+    
+}
+#menu li{
+    display: inline;
+    float: right;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+
+}
+#menu a{
+    min-width: 100px;
+    padding: 0px;
+    margin: 2px;
+    float: left;
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#works h1{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 90px; 
+    /*border: 1px solid magenta;*/
+    height:inherit;
+    width:auto;
+    color:white;
+    padding-bottom: 0px;
+}
+#thena{
+   
+    height:350px;
+    width:1090px;
+     padding-top: 0px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+   
+}
+#thena1{
+   
+    height:400px;
+    width:900px;
+   
+     padding-top: 0px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+    padding-left: 150px;
+}
+
+#work1, #work2, #work3 {
+    width: 200px;
+    height: 200px;
+    /*border: solid black;*/
+    margin: 40px;
+    padding: 30px;
+    float: left; 
+    
+}
+#work4, #work5{
+    width: 200px;
+    height: 200px;
+    /*border: solid black;*/
+    margin: 40px;
+    padding: 60px;
+    float: left; 
+    text-align: center;  
+}
+
+#photo{
+    width: 250px;
+    float: left;
+    padding: 40px;
+    padding-left: 50px;
+ 
+    border-radius: 50%;
+   
+    
+}
+#name h1{
+    text-align: center;
+    color: white;
+    padding-top:70px;
+}
+#name2{
+    font-size: 27px;
+     color: whitesmoke;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+#footer{
+   
+    margin-top: 50px;
+    float:right;
+   padding-right: 100px;
+    margin:50px;
+    display: block;
+}
+
